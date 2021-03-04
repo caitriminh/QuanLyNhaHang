@@ -454,7 +454,7 @@ namespace QuanLyNhaHang.HoatDong
                 }
                 XtraMessageBox.Show($@"Đã cập nhật chi tiết hóa đơn {lblMaHD.Text}.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-                       LoadChiTietHoaDon(lblMaHD.Text);
+            LoadChiTietHoaDon(lblMaHD.Text);
             LoadTinhTienHoaDon();
         }
 
